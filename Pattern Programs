@@ -1,1 +1,25 @@
+Program 1:To print the given pattern using a for loop in Java:
+1. Create a Java class:
 
+    public class PrintPattern {
+        public static void main(String[] args) {
+            // Loop to print the pattern
+            for (int i = 0; i < 4; i++) {
+                System.out.println("*");
+            }
+        }
+    }
+
+2. Compile the Java code:
+Save the code as PrintPattern.java and compile it using a Java compiler (e.g., javac PrintPattern.java).
+
+3. Run the compiled code:
+Execute the compiled class (e.g., java PrintPattern).
+
+This will produce the desired output:
+Code
+
+*
+*
+*
+*
