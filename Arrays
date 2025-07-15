@@ -1,1 +1,54 @@
+Question: Reverse an Array in Java
+Problem Statement:
+Write a Java program to reverse a given array of integers. The array should be reversed in place, i.e., without using any additional array. After reversing, print the array using Arrays.toString() method.
 
+Constraints:
+Array size: 1 <= n <= 1000
+
+Array elements: -10^5 <= arr[i] <= 10^5
+
+Sample Input:
+java
+Copy
+Edit
+int arr[] = {1, 2, 3, 4};
+Expected Output:
+csharp
+Copy
+Edit
+[4, 3, 2, 1]
+Explanation:
+The first element (1) is swapped with the last (4)
+
+The second (2) is swapped with the third (3)
+
+Now the array becomes: [4, 3, 2, 1]
+
+✅ Java Program (Answer):
+java
+Copy
+Edit
+import java.util.*;
+
+public class ReverseArray {
+    public static void main(String[] args) {
+        // Input array
+        int arr[] = {1, 2, 3, 4};
+        
+        // Initialize pointers
+        int left = 0;
+        int right = arr.length - 1;
+
+        // Reverse array in place
+        while (left < right) {
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
+        }
+
+        // Print reversed array
+        System.out.println(Arrays.toString(arr));
+    }
+}
