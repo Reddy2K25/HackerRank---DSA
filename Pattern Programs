@@ -23,3 +23,229 @@ Code
 *
 *
 *
+
+
+
+
+Program 2:  You need to develop a simple Java application to print a given pattern using nested loop structures.
+
+Pattern to Print: 
+******
+******
+******
+******
+
+program: 
+
+public class patterns {
+
+	public static void main(String[] args) {
+		int n = 4;
+		for (int i = 1; i <= n; i++) {
+			System.out.println("*****");
+		}
+
+	}
+
+}
+
+
+
+
+Program 3 : You need to develop a simple Java application to print a given pattern using nested loop structures.
+
+Pattern to Print:
+1111
+2222
+3333
+4444
+
+Program : 
+
+public class patterns {
+
+	public static void main(String[] args) {
+		
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 1; j <= 4; j++) {
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
+
+
+
+
+
+Program 4 : You need to develop a simple Java application to print a given pattern using nested loop structures.
+
+Pattern to Print:
+
+*
+**
+***
+****
+*****
+
+Program : 
+
+public class patterns {
+
+	public static void main(String[] args) {
+		int n = 5;
+		for (int i = 0; i <= n; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
+
+
+Program 5 : You need to develop a simple Java application to print a given pattern using nested loop structures.
+Pattern :
+1
+22
+333
+4444
+55555
+
+Program: 
+public class patterns {
+
+	public static void main(String[] args) {
+		
+		for (int i = 0; i <= 5; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
+
+Program 6 : You need to develop a simple Java application to print a given pattern using nested loop structures.
+Pattern :
+*****
+****
+***
+**
+*
+
+Program :
+public class patterns {
+
+	public static void main(String[] args) {
+		
+		for (int i = 1; i <= 5; i++) {
+			for (int j = 5; j >= i; j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
+
+
+Program 7 : You need to develop a simple Java application to print a given pattern using nested loop structures.
+Pattern :
+12345
+1234
+123
+12
+1
+
+Program : 
+public class patterns {
+
+	public static void main(String[] args) {
+
+		for (int i = 5; i <= 5; i--) {
+			for (int j = 1 ; j <= i ; j++) {
+			System.out.print(j);
+			}
+			System.out.println();
+			}
+		}
+		
+}
+
+
+Program 8 : Descending Digits: The Reverse Pyramid
+Problem Statement
+You need to develop a simple Java application to print a given pattern using nested loop structures.
+Pattern to Print:
+12345
+1234
+123
+12
+1
+
+Program :
+public class patterns {
+
+	public static void main(String[] args) {
+
+		for (int i = 5; i <= 5; i--) {
+			for (int j = 1 ; j <= i ; j++) {
+			System.out.print(j);
+			}
+			System.out.println();
+			}
+		}
+		
+}
+
+Program 9 : Pattern Printing - Vertical Star Line
+Question Title:
+Pattern Printing - Vertical Line of Stars
+Question Description:
+Write a Java program to print a vertical line of stars (\*) with exactly one star in each line, up to 5 lines.
+
+Pattern : 
+*
+*
+*
+*
+*
+
+Program : 
+public class VerticalStarLine {
+    public static void main(String[] args) {
+        // Loop to print 5 stars, each on a new line
+        for (int i = 0; i < 5; i++) {
+            System.out.println("*"); // Prints a star and moves to the next line
+        }
+    }
+}
+
+Program 10 : You need to develop a simple Java application to print a given pattern
+using nested loop structures.
+
+Pattern to Print:
+1234
+1234
+1234
+
+Program :
+public class PrintPattern {
+    public static void main(String[] args) {
+        for (int i = 0; i < 3; i++) { // Outer loop for rows
+            for (int j = 1; j <= 4; j++) { // Inner loop for printing numbers 1 to 4
+                System.out.print(j);
+            }
+            System.out.println(); // Move to the next line after each row
+        }
+    }
+}
